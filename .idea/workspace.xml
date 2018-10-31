@@ -2,22 +2,215 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d3fa75f-2267-4df3-b193-e7561cc19fc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/views/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/users.js" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/views/InfoShow.vue" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" afterPath="$PROJECT_DIR$/client/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" afterPath="$PROJECT_DIR$/client/public/index.html" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/HeadNav.vue" afterPath="$PROJECT_DIR$/client/src/components/HeadNav.vue" />
+      <change beforePath="$PROJECT_DIR$/client/src/router.js" afterPath="$PROJECT_DIR$/client/src/router.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Home.vue" afterPath="$PROJECT_DIR$/client/src/views/Home.vue" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Index.vue" afterPath="$PROJECT_DIR$/client/src/views/Index.vue" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/.eslintignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/.eslintignore" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/.github/PULL_REQUEST_TEMPLATE.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/.vscode/settings.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/.vscode/settings.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/CONTRIBUTING.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/browser.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/browser.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/aggregate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/aggregate.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/doc-methods.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/doc-methods.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/express/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/app.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/app.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/modelA.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/modelA.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/routes.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/routes.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONSchema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONSchema.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONexample.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONexample.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geospatial.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geospatial.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/gs_example.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/gs_example.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/lean.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/lean.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/lean/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/mapreduce.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/mapreduce.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-across-three-collections.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-across-three-collections.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-basic.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-basic.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-existing-doc.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-existing-doc.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-options.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-options.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-plain-objects.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population/population-plain-objects.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/promise.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/promises/promise.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/querybuilder.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/querybuilder.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/replica-sets.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/replica-sets.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/schema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/schema.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/schema.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/schema.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/statics/person.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/statics/person.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/statics/statics.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/statics/statics.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/browser.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/browser.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/browserDocument.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/browserDocument.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/boolean.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/boolean.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/number.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/number.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/string.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/string.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/collection.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/AggregationCursor.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/AggregationCursor.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/ChangeStream.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/ChangeStream.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/QueryCursor.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/QueryCursor.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document_provider.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document_provider.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/driver.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/driver.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/SPEC.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/SPEC.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/ReadPreference.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/ReadPreference.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/binary.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/binary.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/decimal128.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/decimal128.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/objectid.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/ReadPreference.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/ReadPreference.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/decimal128.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/decimal128.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/browserMissingSchema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/browserMissingSchema.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/disconnected.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/disconnected.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/mongooseError.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/mongooseError.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/objectExpected.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/objectExpected.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/objectParameter.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/objectParameter.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/parallelSave.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/parallelSave.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/strict.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/strict.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/common.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/common.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/cursor/eachAsync.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/cursor/eachAsync.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/cleanModifiedSubpaths.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/cleanModifiedSubpaths.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/compile.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/compile.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/getEmbeddedDiscriminatorPath.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/getEmbeddedDiscriminatorPath.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/immediate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/immediate.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyHooks.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyHooks.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyMethods.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyMethods.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyStatics.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyStatics.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/castBulkWrite.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/castBulkWrite.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/discriminator.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/discriminator.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/assignRawDocsToIdStructure.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/assignRawDocsToIdStructure.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/getSchemaTypes.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/getSchemaTypes.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/getVirtual.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/getVirtual.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/leanPopulateMap.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/leanPopulateMap.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/validateRef.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/validateRef.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isDefiningProjection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isDefiningProjection.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isExclusive.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isExclusive.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isInclusive.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isInclusive.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isPathExcluded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isPathExcluded.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isPathSelectedInclusive.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/projection/isPathSelectedInclusive.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/applyQueryMiddleware.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/applyQueryMiddleware.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/castUpdate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/castUpdate.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/completeMany.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/completeMany.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/getEmbeddedDiscriminatorPath.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/getEmbeddedDiscriminatorPath.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/hasDollarKeys.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/hasDollarKeys.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/selectPopulatedFields.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/selectPopulatedFields.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/applyWriteConcern.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/applyWriteConcern.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/getIndexes.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/getIndexes.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/handleTimestampOption.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/handleTimestampOption.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/merge.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/merge.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/setParentPointers.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/setParentPointers.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/setDefaultsOnInsert.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/setDefaultsOnInsert.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/symbols.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/symbols.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/applyTimestampsToChildren.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/applyTimestampsToChildren.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/applyTimestampsToUpdate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/applyTimestampsToUpdate.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/modifiedPaths.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/modifiedPaths.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/updateValidators.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/updateValidators.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/internal.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/internal.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/options.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/options.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/idGetter.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/idGetter.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/removeSubdocs.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/removeSubdocs.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/saveSubdocs.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/saveSubdocs.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/sharding.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/sharding.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/validateBeforeSave.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/validateBeforeSave.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/promise_provider.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/promise_provider.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/decimal128.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/decimal128.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/map.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/map.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/bitwise.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/bitwise.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/exists.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/exists.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/geospatial.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/geospatial.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/helpers.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/helpers.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/text.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/text.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/type.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/type.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/symbols.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/symbols.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/decimal128.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/decimal128.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/map.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/map.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/subdocument.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/subdocument.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/migrating_to_5.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/migrating_to_5.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/release-items.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/release-items.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/static.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/static.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/tools/auth.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/tools/auth.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/tools/repl.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/tools/repl.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/tools/sharded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/tools/sharded.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/website.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/website.js" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,63 +256,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-                <element signature="e#166#196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/views/Login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/http.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="441">
+              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="31" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -129,10 +271,19 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>$message</find>
       <find>路由守</find>
+      <find>createLogger</find>
+      <find>isMatch</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,11 +293,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/client/src/main.js" />
-        <option value="$PROJECT_DIR$/client/src/router.js" />
         <option value="$PROJECT_DIR$/routes/api/users.js" />
         <option value="$PROJECT_DIR$/client/src/http.js" />
-        <option value="$PROJECT_DIR$/client/src/store.js" />
         <option value="$PROJECT_DIR$/client/src/views/Login.vue" />
+        <option value="$PROJECT_DIR$/client/package.json" />
+        <option value="$PROJECT_DIR$/client/src/store.js" />
+        <option value="$PROJECT_DIR$/client/.gitignore" />
+        <option value="$PROJECT_DIR$/client/src/views/Index.vue" />
+        <option value="$PROJECT_DIR$/client/src/router.js" />
+        <option value="$PROJECT_DIR$/client/src/views/Home.vue" />
+        <option value="$PROJECT_DIR$/client/src/components/HeadNav.vue" />
+        <option value="$PROJECT_DIR$/client/public/index.html" />
+        <option value="$PROJECT_DIR$/client/src/views/InfoShow.vue" />
       </list>
     </option>
   </component>
@@ -176,11 +334,21 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,7 +365,20 @@
               <item name="node-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-admin" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node-admin" type="b2602c69:ProjectViewProjectNode" />
@@ -221,13 +402,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-music" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -246,6 +430,9 @@
       </list>
     </option>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -259,34 +446,41 @@
       <workItem from="1540729816717" duration="277000" />
       <workItem from="1540731243643" duration="687000" />
       <workItem from="1540811450334" duration="10051000" />
+      <workItem from="1540883335371" duration="2295000" />
+      <workItem from="1540948963454" duration="28000" />
+      <workItem from="1540949000936" duration="6452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11015000" />
+    <option name="totallyTimeSpent" value="19790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49947312" visible="true" weight="0.59219086" />
-      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17913593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.50052685" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23977901" sideWeight="0.49947312" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,31 +489,104 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/client1" />
+      <path value="$PROJECT_DIR$/nodejs-admin" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client1/要" />
-    <entry file="file://$PROJECT_DIR$/client/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main.js">
+    <entry file="file://$PROJECT_DIR$/client/src/views/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        <state relative-caret-position="1617">
+          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="15" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#166#196#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#22#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="49" column="3" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#22#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#22#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client1/要" />
     <entry file="file://$PROJECT_DIR$/client/src/views/Register.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -327,47 +594,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api/users.js">
+    <entry file="file://$PROJECT_DIR$/client/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="87" column="32" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="32" />
+        <state relative-caret-position="84">
+          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#22#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/router.js">
+    <entry file="file://$PROJECT_DIR$/../vue-music/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        <state relative-caret-position="95">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue-music/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue-music/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="15" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/http.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="814">
+          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/store.js">
+    <entry file="file://$PROJECT_DIR$/routes/api/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="38" column="3" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/views/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="628">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/node-vue-ele-app/client/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/node-vue-ele-app/client/src/views/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#192#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/node-vue-ele-app/client/src/views/InfoShow.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/node-vue-ele-app/client/src/views/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/node-vue-ele-app/client/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/node-vue-ele-app/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="10" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/HeadNav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/InfoShow.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
