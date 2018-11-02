@@ -66,7 +66,7 @@ router.post('/edit/:id', passport.authenticate('jwt', {session: false}), (req, r
     ).then(profile => res.json(profile))
 })
 
-// $route GET /
+// $route GET api/profiles
 // @desc 获取所有信息接口
 // @access private
 router.get(
@@ -78,7 +78,6 @@ router.get(
                 if (!profile) {
                     return res.status(404).json('没有任何内容')
                 }
-
                 res.json(profile) // 返回数据
             })
             .catch(err => res.status(404).json(err))
